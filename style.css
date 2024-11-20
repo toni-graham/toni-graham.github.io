@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffeef8, #f0f8ff); /* Soft gradient background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ffb6c1; /* Soft pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    border-bottom: 3px solid #ff6f91;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+    background: #ffffff;
+}
+
+.login-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+input[type="password"] {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ff6f91;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3d6d;
+}
+
+#feedback {
+    margin-top: 10px;
+    color: #d9534f;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.hint {
+    font-weight: bold;
+    color: #ff6f91;
+    font-style: italic;
+}
