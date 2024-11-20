@@ -5,89 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CTF Challenge - Alex Johnson</title>
     <style>
-        /* Overall page styles */
         body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #f8d7e2, #ffe0f0); /* Gradient pink background */
+            font-family: Arial, sans-serif;
+            background-color: #f8d7e2; /* Light pink background */
+            color: #333;
             margin: 0;
             padding: 0;
-            color: #333;
-            box-sizing: border-box;
         }
-
-        /* Header styling */
         header {
-            background-color: #ff6f91; /* Soft pink */
+            background-color: #333;
             color: white;
-            padding: 30px;
+            padding: 20px;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
-            font-family: 'Arial', sans-serif;
         }
-
-        /* Profile container styles */
         .profile-container {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 40px;
-            min-height: 60vh;
         }
-
-        /* Profile card styling */
         .profile-card {
             background-color: white;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-            border-radius: 12px;
-            width: 100%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
             max-width: 500px;
-            text-align: left;
-            background: #ffffff;
-            transition: all 0.3s ease;
+            width: 100%;
         }
-
-        .profile-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-        }
-
         .profile-card h2 {
-            font-size: 2em;
             color: #333;
             margin-top: 0;
-            font-family: 'Georgia', serif;
         }
-
         .profile-card p {
             font-size: 16px;
-            line-height: 1.6;
-            margin: 8px 0;
+            line-height: 1.5;
         }
-
         .hint {
             font-weight: bold;
             color: #d9534f;
-            font-style: italic;
         }
-
-        /* Footer styling */
         footer {
-            background-color: #ff6f91;
+            background-color: #333;
             color: white;
-            padding: 12px;
+            padding: 10px;
             text-align: center;
-            font-size: 14px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-   
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>CTF Challenge: Alex Johnson</h1>
+</header>
+
+<div class="profile-container">
+    <div class="profile-card">
+        <h2>Public Profile of Alex Johnson</h2>
+        <p><strong>Name:</strong> Alex Johnson</p>
+        <p><strong>Phone Number:</strong> (555) 987-6543</p>
+        <p><strong>Email:</strong> alex.johnson.ctf@example.com</p>
+        <p><strong>Occupation:</strong> Cybersecurity Analyst</p>
+        <p><strong>Public Bio:</strong> "Passionate about cryptography, ethical hacking, and capturing flags!"</p>
+
+        <p class="hint">Hint: There’s a secret hidden in Alex's phone number. What special sequence can you find?</p>
+    </div>
+</div>
 
 <footer>
     <p>CTF Challenge hosted by [Your Name]. All rights reserved.</p>
