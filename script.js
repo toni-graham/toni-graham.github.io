@@ -9,7 +9,7 @@ document.getElementById('passwordForm').addEventListener('submit', function(even
     var correctPasswordMittens = "mittens92!";
 
     if (password === correctPasswordWhiskers || password === correctPasswordMittens) {
-        feedback.textContent = "Success! The flag is: FLAG{Alex_Johnson_Pet_Flag}";
+        feedback.textContent = "Success! The flag is: Alex_Johnson_Pet_Flag";
         feedback.style.color = 'green';
     } else if (password.length > 0) {
         feedback.textContent = "Incorrect password. Hint: The password relates to Alex's favorite pet and a key moment in his life. Take a guess!";
