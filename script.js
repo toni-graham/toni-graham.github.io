@@ -5,8 +5,8 @@ document.getElementById('passwordForm').addEventListener('submit', function(even
     var feedback = document.getElementById('feedback');
 
     // Correct password format: Pet name (Whiskers or Mittens) + last two digits of birth year (92) + "!"
-    var correctPasswordWhiskers = "Whiskers92!";
-    var correctPasswordMittens = "Mittens92!";
+    var correctPasswordWhiskers = "Whiskers92";
+    var correctPasswordMittens = "Mittens92";
 
     if (password === correctPasswordWhiskers || password === correctPasswordMittens) {
         feedback.textContent = "Success! The flag is: I love cats!";
